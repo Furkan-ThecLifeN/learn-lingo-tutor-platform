@@ -2,7 +2,7 @@
 
 LearnLingo is a modern, high-performance web application designed to connect students with professional language tutors. The platform offers a seamless experience for discovering tutors, filtering them based on specific needs, and managing a personalized favorites list.
 
-
+<img width="1668" height="1013" alt="image" src="https://github.com/user-attachments/assets/c285218b-d4c5-420e-925e-56586ad020f2" />
 
 ## 🚀 Main Technologies
 
