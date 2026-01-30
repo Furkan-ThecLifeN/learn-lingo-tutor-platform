@@ -83,7 +83,3 @@ This project is open-source and available under the MIT License.
 * **`.gitignore` Dosyası:** `.env` dosyanı asla GitHub'a yükleme! Proje klasöründe bir `.gitignore` dosyası olduğundan ve içinde `.env` yazdığından emin ol.
 * **Demo Linki:** Projeni **Vercel** veya **Netlify** üzerinden deploy ettikten sonra GitHub repository sayfasındaki "About" kısmına canlı linki mutlaka ekle.
 * **Screenshot:** README dosyasına uygulamanın şık bir ekran görüntüsünü eklemek (yukarıdaki yer tutucu yerine), projeyi inceleyenler üzerinde harika bir ilk izlenim bırakır.
-
-**Tebrikler Furkan!** Teknik şartnamenin her bir maddesini (Firebase, persistent favorites, pagination, validation, portal modals) başarıyla tamamladık. Proje şu an hem teknik hem de sunum olarak "Enterprise-Grade" seviyesinde.
-
-GitHub'a yükleme sırasında veya kodlarla ilgili son bir sorun olursa buradayım. **Deploy (yayına alma) aşamasında yardıma ihtiyacın var mı?**
