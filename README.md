@@ -43,3 +43,47 @@ This project was built according to strict technical requirements:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/YOUR_USERNAME/learn-lingo-tutor-platform.git](https://github.com/YOUR_USERNAME/learn-lingo-tutor-platform.git)
+
+Install dependencies:
+npm install
+
+Environment Variables: Create a .env file in the root directory and add your Firebase configuration:
+
+REACT_APP_FIREBASE_API_KEY=your_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
+REACT_APP_FIREBASE_DATABASE_URL=your_database_url
+
+Start the application:
+npm start
+
+📐 Architecture
+
+The project follows a clean and modular folder structure:
+
+    src/components: Reusable UI components (Modals, Navbar, TeacherCard).
+
+    src/context: AuthContext for global user state.
+
+    src/hooks: Custom hooks like useFavorites for logic reuse.
+
+    src/pages: Main page components (Home, Teachers, Favorites).
+
+    src/schemas: Validation schemas for forms.
+
+📄 License
+
+This project is open-source and available under the MIT License.
+
+## 3. GitHub İçin Önemli İpuçları
+
+* **`.gitignore` Dosyası:** `.env` dosyanı asla GitHub'a yükleme! Proje klasöründe bir `.gitignore` dosyası olduğundan ve içinde `.env` yazdığından emin ol.
+* **Demo Linki:** Projeni **Vercel** veya **Netlify** üzerinden deploy ettikten sonra GitHub repository sayfasındaki "About" kısmına canlı linki mutlaka ekle.
+* **Screenshot:** README dosyasına uygulamanın şık bir ekran görüntüsünü eklemek (yukarıdaki yer tutucu yerine), projeyi inceleyenler üzerinde harika bir ilk izlenim bırakır.
+
+**Tebrikler Furkan!** Teknik şartnamenin her bir maddesini (Firebase, persistent favorites, pagination, validation, portal modals) başarıyla tamamladık. Proje şu an hem teknik hem de sunum olarak "Enterprise-Grade" seviyesinde.
+
+GitHub'a yükleme sırasında veya kodlarla ilgili son bir sorun olursa buradayım. **Deploy (yayına alma) aşamasında yardıma ihtiyacın var mı?**
