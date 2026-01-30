@@ -42,7 +42,7 @@ This project was built according to strict technical requirements:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/learn-lingo-tutor-platform.git](https://github.com/YOUR_USERNAME/learn-lingo-tutor-platform.git)
+   git clone https://github.com/Furkan-ThecLifeN/learn-lingo-tutor-platform.git
 
 Install dependencies:
 npm install
@@ -77,9 +77,3 @@ The project follows a clean and modular folder structure:
 📄 License
 
 This project is open-source and available under the MIT License.
-
-## 3. GitHub İçin Önemli İpuçları
-
-* **`.gitignore` Dosyası:** `.env` dosyanı asla GitHub'a yükleme! Proje klasöründe bir `.gitignore` dosyası olduğundan ve içinde `.env` yazdığından emin ol.
-* **Demo Linki:** Projeni **Vercel** veya **Netlify** üzerinden deploy ettikten sonra GitHub repository sayfasındaki "About" kısmına canlı linki mutlaka ekle.
-* **Screenshot:** README dosyasına uygulamanın şık bir ekran görüntüsünü eklemek (yukarıdaki yer tutucu yerine), projeyi inceleyenler üzerinde harika bir ilk izlenim bırakır.
